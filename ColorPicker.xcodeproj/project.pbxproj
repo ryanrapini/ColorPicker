@@ -14,6 +14,7 @@
 		94F60B071A6A5F400095186F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F60B061A6A5F400095186F /* Images.xcassets */; };
 		94F60B0A1A6A5F400095186F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F60B081A6A5F400095186F /* LaunchScreen.xib */; };
 		94F60B161A6A5F400095186F /* ColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F60B151A6A5F400095186F /* ColorPickerTests.m */; };
+		94F60B201A6A6FF90095186F /* HSVColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F60B1F1A6A6FF90095186F /* HSVColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		94F60B0F1A6A5F400095186F /* ColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F60B141A6A5F400095186F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F60B151A6A5F400095186F /* ColorPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPickerTests.m; sourceTree = "<group>"; };
+		94F60B1F1A6A6FF90095186F /* HSVColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSVColor.m; sourceTree = "<group>"; };
+		94F60B211A6A70140095186F /* HSVColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSVColor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				94F60B001A6A5F400095186F /* ViewController.h */,
 				94F60B011A6A5F400095186F /* ViewController.m */,
 				94F60B031A6A5F400095186F /* Main.storyboard */,
+				94F60B1F1A6A6FF90095186F /* HSVColor.m */,
+				94F60B211A6A70140095186F /* HSVColor.h */,
 				94F60B061A6A5F400095186F /* Images.xcassets */,
 				94F60B081A6A5F400095186F /* LaunchScreen.xib */,
 				94F60AF91A6A5F400095186F /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F60B021A6A5F400095186F /* ViewController.m in Sources */,
+				94F60B201A6A6FF90095186F /* HSVColor.m in Sources */,
 				94F60AFF1A6A5F400095186F /* AppDelegate.m in Sources */,
 				94F60AFC1A6A5F400095186F /* main.m in Sources */,
 			);
